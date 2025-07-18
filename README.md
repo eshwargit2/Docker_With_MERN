@@ -8,7 +8,7 @@
 
 <img width="48" height="48" src="https://img.icons8.com/color/48/mongodb.png" alt="mongodb"/>
 
-<img width="80" height="80" src="https://img.icons8.com/officel/80/express-js.png" alt="express-js"/>
+<img width="80" height="48" src="https://img.icons8.com/officel/80/express-js.png" alt="express-js"/>
 
 <img width="48" height="48" src="https://img.icons8.com/color/48/react-native.png" alt="react-native"/>
 
