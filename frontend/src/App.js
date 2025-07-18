@@ -23,7 +23,7 @@ function App() {
   };
 
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 bg-dark">
       <h1 className="text-center mb-4 font-bold text-primary">Simple MERN Example</h1>
 
       <div className="mb-3">
