@@ -1,8 +1,3 @@
-<h1>Simple MERN Project Using Docker</h1>
-
-<img src="https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000" alt="Docker Img">
-
-<hr/>
 
 <div class={{display:'flex',flexDirection: 'row',marginTop:'50px',justifyContent:'center'}}>
 
@@ -24,8 +19,8 @@
 <p>Both images are hosted on Docker Hub:</p>
 
 <ul>
-  <li><strong>Frontend Image:</strong> <code>eshwarelectrotech/mern-frontend</code></li>
-  <li><strong>Backend Image:</strong> <code>eshwarelectrotech/mern-backend</code></li>
+  <li><strong>Frontend Image:</strong> <code>soundhareshwaran/mern-frontend</code></li>
+  <li><strong>Backend Image:</strong> <code>soundhareshwaran/mern-backend</code></li>
 </ul>
 
 <h2>🔽 Pull Docker Images</h2>
