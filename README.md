@@ -1,5 +1,5 @@
 
-<div class={{display:'flex',flexDirection: 'row',marginTop:'50px',justifyContent:'center'}}>
+<div class={{display:'flex',flexDirection: 'row',marginTop:'50px',justifyContent:'center',gap:"50px"}}>
 
 <img width="48" height="48" src="https://img.icons8.com/color/48/mongodb.png" alt="mongodb"/>
 
