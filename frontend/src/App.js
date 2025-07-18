@@ -36,7 +36,7 @@ function App() {
         />
       </div>
       
-      <button className="btn btn-primary" onClick={addItem}>Add Name</button>
+      <button className="btn btn-primary"  onClick={addItem}>Add Name</button>
 
       <h2 className="mt-4 text-primary">Names:</h2>
       <ul className="list-group">
