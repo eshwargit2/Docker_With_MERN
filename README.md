@@ -31,8 +31,8 @@
 <h2>🔽 Pull Docker Images</h2>
 
 <pre>
-<code>docker pull eshwarelectrotech/mern-frontend
-docker pull eshwarelectrotech/mern-backend</code>
+<code>docker pull soundhareshwaran/mern-frontend
+docker pull soundhareshwaran/mern-backend</code>
 </pre>
 
 <h2>▶️ Run Docker Containers</h2>
@@ -40,7 +40,7 @@ docker pull eshwarelectrotech/mern-backend</code>
 <h3>🖥️ Run Backend</h3>
 
 <pre>
-<code>docker run -d -p 5000:5000 --name backend eshwarelectrotech/mern-backend</code>
+<code>docker run -d -p 5000:5000 --name backend soundhareshwaran/mern-backend</code>
 </pre>
 
 <p>Now your backend server will run on:</p>
@@ -49,7 +49,7 @@ docker pull eshwarelectrotech/mern-backend</code>
 <h3>🌐 Run Frontend</h3>
 
 <pre>
-<code>docker run -d -p 3000:3000 --name frontend eshwarelectrotech/mern-frontend</code>
+<code>docker run -d -p 3000:3000 --name frontend soundhareshwaran/mern-frontend</code>
 </pre>
 
 <p>Now your frontend app will be available at:</p>
@@ -71,4 +71,4 @@ https://github.com/eshwargit2/Docker_With_MERN
 
 <hr>
 
-<p>✅ Built with ❤️ by Eshwar Electro Tech</p>
+<p>✅ Built with ❤️ by Soundhareshwaran S.R</p>
