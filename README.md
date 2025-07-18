@@ -19,15 +19,15 @@
 <p>Both images are hosted on Docker Hub:</p>
 
 <ul>
-  <li><strong>Frontend Image:</strong> <code>soundhareshwaran/mern-frontend</code></li>
-  <li><strong>Backend Image:</strong> <code>soundhareshwaran/mern-backend</code></li>
+  <li><strong>Frontend Image:</strong> <code>soundhareshwaran/mern-frontend:latest</code></li>
+  <li><strong>Backend Image:</strong> <code>soundhareshwaran/mern-backend:latest</code></li>
 </ul>
 
 <h2>🔽 Pull Docker Images</h2>
 
 <pre>
-<code>docker pull soundhareshwaran/mern-frontend
-docker pull soundhareshwaran/mern-backend</code>
+<code>docker pull soundhareshwaran/mern-frontend:latest
+docker pull soundhareshwaran/mern-backend:latest</code>
 </pre>
 
 <h2>▶️ Run Docker Containers</h2>
@@ -35,7 +35,7 @@ docker pull soundhareshwaran/mern-backend</code>
 <h3>🖥️ Run Backend</h3>
 
 <pre>
-<code>docker run -d -p 5000:5000 --name backend soundhareshwaran/mern-backend</code>
+<code>docker run -d -p 5000:5000 --name backend soundhareshwaran/mern-backend:latest</code>
 </pre>
 
 <p>Now your backend server will run on:</p>
@@ -44,7 +44,7 @@ docker pull soundhareshwaran/mern-backend</code>
 <h3>🌐 Run Frontend</h3>
 
 <pre>
-<code>docker run -d -p 3000:3000 --name frontend soundhareshwaran/mern-frontend</code>
+<code>docker run -d -p 3000:3000 --name frontend soundhareshwaran/mern-frontend:latest</code>
 </pre>
 
 <p>Now your frontend app will be available at:</p>
