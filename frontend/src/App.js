@@ -24,8 +24,8 @@ function App() {
 
   return (
     <div className="container mt-5">
-      <h1 className="text-center mb-4">Simple MERN Example</h1>
-      
+      <h1 className="text-center mb-4 font-bold text-primary">Simple MERN Example</h1>
+
       <div className="mb-3">
         <input 
           type="text" 
@@ -38,7 +38,7 @@ function App() {
       
       <button className="btn btn-primary" onClick={addItem}>Add Name</button>
 
-      <h2 className="mt-4">Names:</h2>
+      <h2 className="mt-4 text-primary">Names:</h2>
       <ul className="list-group">
         {items.map(item => (
           <li key={item._id} className="list-group-item m-2">
