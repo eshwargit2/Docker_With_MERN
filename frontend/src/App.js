@@ -41,7 +41,7 @@ function App() {
       <h2 className="mt-4">Names:</h2>
       <ul className="list-group">
         {items.map(item => (
-          <li key={item._id} className="list-group-item">
+          <li key={item._id} className="list-group-item m-2">
             {item.name}
           </li>
         ))}
