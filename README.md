@@ -4,7 +4,7 @@
 
 <hr/>
 
-<div class={{display:'flex',flexDirection: 'row',marginTop:'50px'}}>
+<div class={{display:'flex',flexDirection: 'row',marginTop:'50px',justifyContent:'center'}}>
 
 <img width="48" height="48" src="https://img.icons8.com/color/48/mongodb.png" alt="mongodb"/>
 
