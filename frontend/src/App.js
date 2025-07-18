@@ -40,11 +40,13 @@ function App() {
 
       <h2 className="mt-4 text-primary">Names:</h2>
       <ul className="list-group">
-        {items.map(item => (
+        {items.length > 0 ? (items.map(item => (
           <li key={item._id} className="list-group-item m-2">
             {item.name}
           </li>
-        ))}
+        ))) : (
+          <li className="list-group-item">No items found</li>
+        )}
       </ul>
     </div>
   );
